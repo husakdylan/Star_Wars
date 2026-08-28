@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Russo+One&display=swap');
+@font-face {
+    font-family: 'Tie Wing';
+    src: url('/Fonts/TieWing-y0Ee.ttf');
+}
+@font-face {
+    font-family: 'StarJedi';
+    src: url('/Fonts/SfDistantGalaxy-0l3d.ttf');
+}
+
+.body{
+    background-image:url("https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png");
+    background-size:auto;
+    color:white;
+    text-align:center;
+    font-family: 'Orbitron', sans-serif;
+}
+h2.dark_side{
+    font-size:50px;
+    margin:0px;
+    padding:0px;
+    margin-bottom: 20px;
+    font-family: 'Orbitron', sans-serif;
+}
+.dark_side{
+    list-style-type:none;
+    font-size:30px;
+    margin:0px;
+    padding:0px;
+    margin-bottom: 20px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.imperio{
+    filter: drop-shadow(0 0 8px #f60202e0);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#escudo_imperio{
+    filter: drop-shadow(0 0 4px #f60202e0);
+}
+
+.apoyo{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.subtitulos_imperio{
+    text-align:center;
+    font-size:50px;
+    margin:0px;
+    padding:0px;
+    margin-bottom: 20px;
+    color:white;
+    text-shadow: 4px 4px 6px #dc2626, 0px 0px 8px #dc2626;
+}
+
+#darth_vader{
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-size: 80px;
+    color:#ffffff;
+    text-shadow: 0 0px 8px #ff0000, 0 0px 8px #ff0000;
+    display:inline-block;
+    border-radius: 10px;
+    font-family: 'Tie Wing', sans-serif;
+}
+.soldado{
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    display:inline-block;
+    border-radius: 10px;
+    color:#ffffff;
+    text-shadow: 0px 0px 8px #dc2626, 0px 0px 8px #dc2626;
+}
+
+.rebeldes{
+    border-radius: 10px;
+    filter: drop-shadow(0 0 8px #16f602e0); 
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+h2.jedi{
+    font-size:50px;
+    margin:0px;
+    padding:0px;
+    margin-bottom: 20px;
+    font-family: 'Orbitron', sans-serif;
+}
+.jedi{
+    list-style-type:none;
+    text-align:center;
+    font-size:30px;
+    margin:0px;
+    padding:0px;
+    margin-bottom: 20px; 
+    font-family: 'Russo One', sans-serif;
+}
+
+#luke_skywalker{
+    text-align:center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-size: 80px;
+    color:#d8e6d4;
+    text-shadow: 0 0px 8px #00ff00, 0 0px 8px #00ff00;
+    display:inline-block;
+    border-radius: 10px;
+    font-family: 'StarJedi', sans-serif;
+    letter-spacing: 5px;
+    font-style: italic;
+    -webkit-text-stroke: 0.5px black;
+}
+.droides{
+    text-align:center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    display:inline-block;
+    border-radius: 10px;
+    color:#ffffff;
+    text-shadow: 0px 0px 8px #00ff00, 0px 0px 8px #00ff00;
+
+}
+.subtitulos_rebeldes{
+    text-align:center;
+    font-size:50px;
+    margin:0px;
+    padding:0px;
+    margin-bottom: 30px;
+    color:white;
+    text-shadow: 4px 4px 6px #00ff00, 0px 0px 8px #00ff00 ;
+}
+
+#escudo_rebelde{
+    filter: drop-shadow(0 0 8px #16f602e0);
+}
